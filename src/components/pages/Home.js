@@ -5,6 +5,7 @@ import './styles/footer.css'
 const styles = {
     homeStyle: {
         background: '#050A30',
+        display: 'flex',
         
     },
     homeText: {
