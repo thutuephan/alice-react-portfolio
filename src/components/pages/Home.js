@@ -1,6 +1,5 @@
 import React from "react";
 
-import './styles/footer.css'
 
 const styles = {
     homeStyle: {
@@ -9,7 +8,7 @@ const styles = {
         
     },
     homeText: {
-        fontFamily: 'Luxurious Roman', cursive,
+        fontFamily: 'Luxurious Roman', 
         fontWeight: 'bolder',
         color: 'white',
         justifyContent: 'center',

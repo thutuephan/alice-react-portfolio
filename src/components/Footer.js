@@ -1,10 +1,10 @@
 import React from 'react'
-import './styles/footer.css'
+//import './styles/footer.css'
 
 const styles = {
     footerStyle: {
-        background: 'black',
-        fontSize: '100px',
+        background: 'pink',
+        fontSize: '20px',
         
     }
 }

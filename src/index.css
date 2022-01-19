@@ -18,3 +18,23 @@
 
 
 }
+
+footer ul {
+  display: flex;
+  margin:0;
+  padding: 0 10px;
+  
+}
+footer ul li {
+  list-style-type: none;
+  justify-content: center;
+}
+/* hide underline for each link */
+footer ul li a {
+  text-decoration: none;
+  display: block;
+  padding:0 15px;
+  font-size: 10px;
+  color: var(--mainText);
+
+}
