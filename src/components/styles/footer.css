@@ -1,0 +1,21 @@
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.fab {
+    padding: 10px;
+}
+.fab:hover {
+    color: #FCB5AC
+}

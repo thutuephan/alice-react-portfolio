@@ -1,9 +1,18 @@
 import React from 'react'
+import './styles/footer.css'
+
+const styles = {
+    footerStyle: {
+        background: 'black',
+        fontSize: '100px',
+        
+    }
+}
 
 function Footer() {
     return (
         <div>
-            <footer className='footer'>
+            <footer className='footer' style={styles.footerStyle}>
                 <div className='icons'>
                     <ul className='list-style: none list-inline text-center'>
                         <li className='list-inline-item'>
