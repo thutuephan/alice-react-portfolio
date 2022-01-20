@@ -3,8 +3,9 @@ import React from "react";
 
 const styles = {
     homeStyle: {
-        background: '#050A30',
-        display: 'flex',
+        background: '#4CD7D0',
+        display: 'center',
+        justifyContent:'center',
         
     },
     homeText: {
@@ -12,12 +13,13 @@ const styles = {
         fontWeight: 'bolder',
         color: 'white',
         justifyContent: 'center',
+        display:'center',
 
     }
 }
 function Home() {
     return (
-        <div>
+        
             <div className="home container" style={styles.homeStyle}>
                 <h1 className="home-text" stsyle={styles.homeText}>THU PHAN</h1>
                 <h3 className="title" style={styles.homeText}>A Full Stack Web Developer</h3>
@@ -25,7 +27,7 @@ function Home() {
             </div>
             
             
-        </div>
+        
     )
 }
 

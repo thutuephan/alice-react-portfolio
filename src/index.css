@@ -1,11 +1,15 @@
 :root{
-  --mainColor:black;
-  --secondaryColor:rgb(26, 55, 77);
+  --mainColor:pink;
+  --secondaryColor:#4CD7D0
+
+  ;
   --borderColor:#c1c1c1;
   --mainText:white;
   
 
 }
+
+
 .nav {
   background-color: var(--secondaryColor);
   border:2px solid var(--borderColor);
@@ -14,18 +18,23 @@
   justify-content:space-around;
   border-radius: 5px 5px 0 0;
   grid-template-rows: 3em;
-  
+  list-style: none;
+  display: flex;
 
+}
 
+.home-container {
+  display:inline-block;
 }
 
 footer ul {
   display: flex;
-  margin:0;
   padding: 0 10px;
+  margin-top: 0px;
   
 }
 footer ul li {
+  padding-top: 10px;
   list-style-type: none;
   justify-content: center;
 }
@@ -37,4 +46,10 @@ footer ul li a {
   font-size: 10px;
   color: var(--mainText);
 
+}
+.fab:hover {
+  color: pink;
+}
+.fab {
+  color:black;
 }
