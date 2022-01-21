@@ -6,7 +6,7 @@ const styles = {
     
         marginTop: '0px',
         width:'100%',
-        backgroundImage:`url('https://images.pexels.com/photos/548376/pexels-photo-548376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+        backgroundImage:`url('https://images.pexels.com/photos/3014451/pexels-photo-3014451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         backgroundPosition: 'center',
         backgroundSize: 'cover'
         
