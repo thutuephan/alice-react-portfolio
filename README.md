@@ -5,11 +5,12 @@
   > Keep smiling and work harder
   
   ## Description
-    This single-page application portfolio was created by using new React skills. 
+This single-page application portfolio was created by using new React skills. 
+This portfolio includes five single pages/sections: Home, About, Works, Skills and Contact. The Footer component appears on multiple pages. Navigation component is used to conditionally render the different sections of my portfolio.
+
   ## Table of Contents
   - [Description](#)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [Links](#links)
   - [Screenshots](#screenshots)
   - [Credits](#credits)
@@ -22,8 +23,7 @@
     
     `npm start`
 
-  ## Usage
-   This portfolio includes five single pages/sections: Home, About, Works, Skills and Contact. The Footer component appears on multiple pages. Navigation component is used to conditionally render the different sections of my portfolio.
+  
   ## Links
   * The URL of the GitHub repository:https://github.com/thutuephan/alice-react-portfolio
   * The heroku URL of the functional, deployed application: https://google-book-search-engine-al.herokuapp.com/
