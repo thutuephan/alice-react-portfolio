@@ -20,13 +20,12 @@ This portfolio includes five single pages/sections: Home, About, Works, Skills a
   ## Installation
   This app does not require installation. In order for the user/watcher to run it locally, running the following command lines is required:
     `npm i` 
-    
     `npm start`
 
   
   ## Links
   * The URL of the GitHub repository:https://github.com/thutuephan/alice-react-portfolio
-  * The heroku URL of the functional, deployed application: https://thutuephan.github.io/alice-react-portfolio/
+  * Deployed link to gh-pages: https://thutuephan.github.io/alice-react-portfolio/
 
   ## Screenshots
   ### Home
@@ -44,8 +43,8 @@ This portfolio includes five single pages/sections: Home, About, Works, Skills a
 
   ## Credits
   * THU PHAN  
-  * Instructional Staff
-  
+  * TA: Theo Moreland
+  * Classmate: Konner Hartman 
   * https://devicon.dev/
 
   * https://stackoverflow.com/questions/16178382/css-lighten-an-element-on-hover
