@@ -45,26 +45,26 @@ function Contact() {
         <div className='container border'
         style={{marginTop: '0px',
         width:'100%',
-        backgroundImage:`url('https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')`,
+        backgroundImage:`url('https://images.pexels.com/photos/3014451/pexels-photo-3014451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         backgroundPosition: 'center',
         backgroundSize: 'cover'
         }}
         >
-            <h1 style={{marginTop:'25px', color: 'white'}}>Contact Me</h1>
+            <h1 style={{marginTop:'25px', color: 'black'}}>Contact Me</h1>
             <form className="row" style={{ margin: '25px 50px 75px 100px' }} >
-                <label style={{color: 'white'}}>Username</label>
+                <label style={{color: 'black'}}>Username</label>
                 <input value={userName}
                 type='text' name='userName' 
                 onChange={handleInputChange}
                 className="form-control"/>
  
-                <label style={{color: 'white'}}>Email</label>
+                <label style={{color: 'black'}}>Email</label>
                 <input value={email}
                 type='email' name='email' 
                 onChange={handleInputChange}
                 className="form-control"/>
 
-                <label  style={{color: 'white'}}>Message</label>
+                <label  style={{color: 'black'}}>Message</label>
                 <textarea name='message' rows='5' className="form-control"/>
                 <input onClick={handleFormSubmit}type='submit' value='Send' className="form-control btn btn-primary"
                 style={{marginTop:'30px'}}/>

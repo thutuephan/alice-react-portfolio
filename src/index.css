@@ -60,10 +60,24 @@ footer ul li a {
 } */
 .whiteava {
   border-radius: 200%;
-
   height: 200px;
+  vertical-align: text-top;
 }
 
+h2, h3 {
+  text-align: center;
+}
+
+.row div {
+  transition: transform 0.7s;
+
+}
+.row div:hover {
+  transform: scale(1.1);
+
+  color: pink;
+
+}
 
 footer ul {
   display: flex;
@@ -75,6 +89,8 @@ footer ul {
 footer p {
   width: 100%;
   margin: 10px 0px;
+  color: white;
+  text-align: center;
   
 }
 

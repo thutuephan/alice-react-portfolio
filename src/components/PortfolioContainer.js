@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Works from './pages/Works';
 import Footer from './Footer';
+import Skills from './pages/Skills';
 
 function PortfolioContainer() {
 
@@ -19,6 +20,9 @@ function PortfolioContainer() {
         }
         if (currentPage === 'Works') {
             return <Works />;
+        }
+        if (currentPage === 'Skills') {
+            return <Skills />
         }
         return <Contact />;
     };

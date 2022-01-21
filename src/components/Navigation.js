@@ -50,6 +50,20 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
 
             </li>
+
+            <li className='nav-item'>
+                <a
+                    href='#skills'
+                    onClick={() => handlePageChange('Skills')}
+
+                    // check the state of the current page like above
+                    className={currentPage === 'Skills' ?'nav-link active' : 'nav-link'}                
+                >
+                    Skills
+                </a>
+
+            </li>
+            
             <li className='nav-item'>
                 <a
                     href='#contact'
