@@ -2,7 +2,7 @@
   "name": "alice-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thutuephan.github.io/portfolio",
+  "homepage": "https://thutuephan.github.io/alice-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

@@ -26,7 +26,7 @@ This portfolio includes five single pages/sections: Home, About, Works, Skills a
   
   ## Links
   * The URL of the GitHub repository:https://github.com/thutuephan/alice-react-portfolio
-  * The heroku URL of the functional, deployed application: https://google-book-search-engine-al.herokuapp.com/
+  * The heroku URL of the functional, deployed application: https://thutuephan.github.io/alice-react-portfolio/
 
   ## Screenshots
   ### Home
