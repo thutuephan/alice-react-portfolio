@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.73afcdb3.css",
-    "main.js": "/portfolio/static/js/main.50d7ef77.js",
-    "static/js/787.74e46249.chunk.js": "/portfolio/static/js/787.74e46249.chunk.js",
-    "static/media/project2.png": "/portfolio/static/media/project2.aa2d4d7856cce76f2384.png",
-    "static/media/weather.png": "/portfolio/static/media/weather.545ae88389eee69cbe4b.png",
-    "static/media/project1.jpg": "/portfolio/static/media/project1.2185d4b981c88236343d.jpg",
-    "static/media/avar3.jpeg": "/portfolio/static/media/avar3.39180ff90b63efe27b1e.jpeg",
-    "static/media/budget.png": "/portfolio/static/media/budget.87b957c7608f58990f19.png",
-    "static/media/fitness.png": "/portfolio/static/media/fitness.7eb9d5a5c75bf47286f8.png",
-    "static/media/dailyplanner.PNG": "/portfolio/static/media/dailyplanner.6c7fa6b50d44077c6265.PNG",
-    "index.html": "/portfolio/index.html",
-    "main.73afcdb3.css.map": "/portfolio/static/css/main.73afcdb3.css.map",
-    "main.50d7ef77.js.map": "/portfolio/static/js/main.50d7ef77.js.map",
-    "787.74e46249.chunk.js.map": "/portfolio/static/js/787.74e46249.chunk.js.map"
+    "main.css": "/alice-react-portfolio/static/css/main.73afcdb3.css",
+    "main.js": "/alice-react-portfolio/static/js/main.65d7a19e.js",
+    "static/js/787.74e46249.chunk.js": "/alice-react-portfolio/static/js/787.74e46249.chunk.js",
+    "static/media/project2.png": "/alice-react-portfolio/static/media/project2.aa2d4d7856cce76f2384.png",
+    "static/media/weather.png": "/alice-react-portfolio/static/media/weather.545ae88389eee69cbe4b.png",
+    "static/media/project1.jpg": "/alice-react-portfolio/static/media/project1.2185d4b981c88236343d.jpg",
+    "static/media/avar3.jpeg": "/alice-react-portfolio/static/media/avar3.39180ff90b63efe27b1e.jpeg",
+    "static/media/budget.png": "/alice-react-portfolio/static/media/budget.87b957c7608f58990f19.png",
+    "static/media/fitness.png": "/alice-react-portfolio/static/media/fitness.7eb9d5a5c75bf47286f8.png",
+    "static/media/dailyplanner.PNG": "/alice-react-portfolio/static/media/dailyplanner.6c7fa6b50d44077c6265.PNG",
+    "index.html": "/alice-react-portfolio/index.html",
+    "main.73afcdb3.css.map": "/alice-react-portfolio/static/css/main.73afcdb3.css.map",
+    "main.65d7a19e.js.map": "/alice-react-portfolio/static/js/main.65d7a19e.js.map",
+    "787.74e46249.chunk.js.map": "/alice-react-portfolio/static/js/787.74e46249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73afcdb3.css",
-    "static/js/main.50d7ef77.js"
+    "static/js/main.65d7a19e.js"
   ]
 }
