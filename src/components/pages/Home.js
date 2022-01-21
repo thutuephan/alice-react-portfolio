@@ -4,9 +4,7 @@ import React from "react";
 const styles = {
     homeStyle: {
         background: '#4CD7D0',
-        display: 'center',
-        justifyContent:'center',
-        
+       
     },
     homeText: {
         fontFamily: 'Luxurious Roman', 

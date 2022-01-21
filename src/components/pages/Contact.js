@@ -44,14 +44,14 @@ function Contact() {
     return (
         <div className='container border'
         style={{marginTop: '0px',
-        width:'50%',
-        backgroundImage:`url('https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')`,
+        width:'100%',
+        backgroundImage:`url('https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')`,
         backgroundPosition: 'center',
         backgroundSize: 'cover'
         }}
         >
             <h1 style={{marginTop:'25px', color: 'white'}}>Contact Me</h1>
-            <form className="row" style={{ margin: '25px 85px 75px 100px' }} >
+            <form className="row" style={{ margin: '25px 50px 75px 100px' }} >
                 <label style={{color: 'white'}}>Username</label>
                 <input value={userName}
                 type='text' name='userName' 
@@ -65,7 +65,7 @@ function Contact() {
                 className="form-control"/>
 
                 <label  style={{color: 'white'}}>Message</label>
-                <textarea name='message' rows='4' className="form-control"/>
+                <textarea name='message' rows='5' className="form-control"/>
                 <input onClick={handleFormSubmit}type='submit' value='Send' className="form-control btn btn-primary"
                 style={{marginTop:'30px'}}/>
             </form>

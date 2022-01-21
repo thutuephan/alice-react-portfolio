@@ -1,9 +1,19 @@
 import React from 'react';
 
+const styles = {
+    navStyles:{
+        marginTop: '0px',
+        width:'100%',
+        backgroundImage:`url('https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+   
+    }
+}
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className='nav nav-tabs'>
+        <ul className='nav nav-tabs' style={styles.navStyles}>
             <li className='nav-item'>
                 <a
                 href='#home'

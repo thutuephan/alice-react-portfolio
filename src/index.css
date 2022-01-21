@@ -1,6 +1,6 @@
 :root{
   --mainColor:pink;
-  --secondaryColor:#4CD7D0
+  --secondaryColor:black;
 
   ;
   --borderColor:#c1c1c1;
@@ -10,8 +10,8 @@
 }
 
 
-.nav {
-  background-color: var(--secondaryColor);
+.nav,  .nav-item {
+  /* background-color: var(--secondaryColor);
   border:2px solid var(--borderColor);
   -webkit-box-shadow: 5px 13px 20px 10px rgba(151,170,167,0.85); 
   box-shadow: 5px 13px 20px 10px rgba(151,170,167,0.85);
@@ -19,14 +19,15 @@
   border-radius: 5px 5px 0 0;
   grid-template-rows: 3em;
   list-style: none;
-  display: flex;
+  display: flex; */
+  background-color: var(--secondaryColor);
 
 }
 
 .home-container {
-  display:inline-block;
+  display:flex;
 }
-
+/* 
 footer ul {
   display: flex;
   padding: 0 10px;
@@ -38,7 +39,7 @@ footer ul li {
   list-style-type: none;
   justify-content: center;
 }
-/* hide underline for each link */
+/* hide underline for each link 
 footer ul li a {
   text-decoration: none;
   display: block;
@@ -46,10 +47,68 @@ footer ul li a {
   font-size: 10px;
   color: var(--mainText);
 
+} */
+/* footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: pink;
+} */
+.whiteava {
+  border-radius: 200%;
+
+  height: 200px;
+}
+
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+footer p {
+  width: 100%;
+  margin: 10px 0px;
+  
+}
+
+footer li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  transition: transform 0.7s;
+  list-style-type: none;
+  margin-top: 15px;
+
+}
+
+footer li:hover {
+  transform: scale(1.1);
+
+  color: pink;
+
 }
 .fab:hover {
   color: pink;
 }
-.fab {
+.far:hover {
+  color: pink;
+}
+.fas:hover {
+  color: pink;
+}
+footer a {
+  display: inline-block;
+
+}
+.fab, .far, .fas {
   color:black;
 }
