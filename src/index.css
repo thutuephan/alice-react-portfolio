@@ -27,7 +27,7 @@
   color: red;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, li {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
@@ -130,8 +130,11 @@ footer a {
 }
 
 .project img {
-  width: 100%;
+
   border-radius: 8px;
+  height: 200px;
+  width: 200px;
+
 }
 .project:hover {
   filter: brightness(90%);

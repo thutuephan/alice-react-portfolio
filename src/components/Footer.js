@@ -30,6 +30,8 @@ function Footer() {
                         <li><a target="_blank" href="mailto:alicebe.phan@gmail.com"><i className="fas fa-envelope-open-text fa-3x"></i><br/>Email</a>
                         </li>
                         <li><a target="_blank" href="Resume.pdf"><i className="far fa-file fa-3x"></i><br/>Resume</a></li>
+                        <li><a target="_blank" href="https://stackoverflow.com/users/17991642/thu-phan"><i className="fab fa-stack-overflow fa-3x"></i><br/>Stack</a></li>
+
 
                     </ul>
 
