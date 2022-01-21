@@ -39,6 +39,10 @@ This portfolio includes five single pages/sections: Home, About, Works, Skills a
   ### Contact
   ![contact](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/contact.png)
   ### Mobile-friendly / Pics were taken on an iPhone
+  ![mobile](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/mobile3.jpeg)
+  ![mobile](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/mobile2.jpeg)
+
+
   
 
   
