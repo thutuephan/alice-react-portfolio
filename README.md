@@ -29,16 +29,16 @@
   * The heroku URL of the functional, deployed application: https://google-book-search-engine-al.herokuapp.com/
 
   ## Screenshots
-  ### Book 1
-  ![book1](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book1.png)
-  ### Book 2
-  ![book2](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book2.png)
-  ### Book 3
-  ![book3](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book3.png)
-  ### Book 4
-  ![book4](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book4.png)
-  ### Book 5
-  ![book5](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book5.png)
+  ### Home
+  ![home](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/home.png)
+  ### About
+  ![about](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/about.png)
+  ### Works
+  ![project](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/works.png)
+  ### Skills
+  ![skills](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/skills.png)
+  ### Contact
+  ![contact](https://github.com/thutuephan/alice-react-portfolio/blob/main/src/images/contact.png)
 
   
 
