@@ -6,11 +6,20 @@ import project1 from '../../images/project1.jpg';
 import project2 from '../../images/project2.png';
 import weather from '../../images/weather.png'
 
+const styles = {
+    
+    marginTop: '0px',
+    width:'100%',
+    backgroundImage:`url('https://images.pexels.com/photos/3014451/pexels-photo-3014451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover'
+    
 
+}
 
 function Works() {
     return (
-        <div className="projects">
+        <div className="projects" style={styles}>
             <h1 style={{textAlign:'center'}}>Projects</h1>
 
             <div className="project">

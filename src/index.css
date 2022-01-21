@@ -1,4 +1,4 @@
-:root{
+/* :root{
   --mainColor:pink;
   --secondaryColor:black;
 
@@ -7,10 +7,10 @@
   --mainText:white;
   
 
-}
+} */
 
 
-.nav,  .nav-item {
+/* .nav,  .nav-item {
   /* background-color: var(--secondaryColor);
   border:2px solid var(--borderColor);
   -webkit-box-shadow: 5px 13px 20px 10px rgba(151,170,167,0.85); 
@@ -20,44 +20,28 @@
   grid-template-rows: 3em;
   list-style: none;
   display: flex; */
-  background-color: var(--secondaryColor);
+  /* background-color: var(--secondaryColor);
 
+} */ 
+.nav-item {
+  color: red;
 }
 
-.home-container {
-  display:flex;
+h1, h2, h3, p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
-/* 
+h1{
+  color: pink;
+}
+
 footer ul {
   display: flex;
   padding: 0 10px;
   margin-top: 0px;
   
 }
-footer ul li {
-  padding-top: 10px;
-  list-style-type: none;
-  justify-content: center;
-}
-/* hide underline for each link 
-footer ul li a {
-  text-decoration: none;
-  display: block;
-  padding:0 15px;
-  font-size: 10px;
-  color: var(--mainText);
 
-} */
-/* footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100px;
-  width: 100%;
-  text-align: center;
-  background-color: pink;
-} */
 .whiteava {
   border-radius: 200%;
   height: 200px;
@@ -94,7 +78,7 @@ footer p {
   
 }
 
-footer li {
+footer li  {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -105,6 +89,8 @@ footer li {
   margin-top: 15px;
 
 }
+
+
 
 footer li:hover {
   transform: scale(1.1);
@@ -157,3 +143,24 @@ button {
 button:hover {
   background-color: pink;
 }
+
+.nav-item:hover {
+  color:black,
+}
+@media only screen and (max-width:1200px) {
+  .main-container {
+      width: 95%;
+  }
+  
+}
+
+@media only screen and (min-width: 360px) {
+  /* For mobile phones: */
+  .one, .two  {
+      width: 50%;
+  }
+  footer ul li a{
+      font-size: 16px;
+  }
+  
+} 

@@ -7,15 +7,15 @@ const styles = {
         backgroundImage:`url('https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-   
+        
     }
 }
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className='nav nav-tabs' style={styles.navStyles}>
+        <ul className='nav nav-tabs' style={styles.navStyles} >
             <li className='nav-item'>
-                <a
+                <a 
                 href='#home'
                 onClick={() => handlePageChange('Home')}
                 // This is a conditional (ternary) operator that checks to see if the current page is 'Home 
