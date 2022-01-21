@@ -34,7 +34,7 @@ function About() {
                     <br/>
                     </p>
                 <p>
-                    I am currently completing an intensive full-stack web development bootcamp from Southern Methodist University and developing the following technologies: 
+                    I am currently completing an intensive full-stack web development bootcamp from Southern Methodist University and developing the skills of the following technologies: 
                 </p>
                 <div>
                     <ul className="technologies">
