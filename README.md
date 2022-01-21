@@ -5,7 +5,7 @@
   > Keep smiling and work harder
   
   ## Description
-    
+    This single-page application portfolio was created by using new React skills. 
   ## Table of Contents
   - [Description](#)
   - [Installation](#installation)
@@ -17,14 +17,15 @@
   - [License](#license)
 
   ## Installation
+  This app does not require installation. In order for the user/watcher to run it locally, running the following command lines is required:
     `npm i` 
     
     `npm start`
 
   ## Usage
-   
+   This portfolio includes five single pages/sections: Home, About, Works, Skills and Contact. The Footer component appears on multiple pages. Navigation component is used to conditionally render the different sections of my portfolio.
   ## Links
-  * The URL of the GitHub repository:
+  * The URL of the GitHub repository:https://github.com/thutuephan/alice-react-portfolio
   * The heroku URL of the functional, deployed application: https://google-book-search-engine-al.herokuapp.com/
 
   ## Screenshots
